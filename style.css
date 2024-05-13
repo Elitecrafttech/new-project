@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60%;
+    padding: 20px;
+}
+.ul1{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.herosec{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+}
+.herokid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.high1{
+    width: 25vw;
+}
+.par1{
+    width: 33vw;
+}
+.form1{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 20vw;
+    height: 35px;
+    padding: 15px;
+}
+.form2{
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 50px;
+    color: white;
+    cursor: pointer;
+}
+.illustration{
+    height: 450px;
+}
+.illustration2{
+    height: 450px;
+}
+.hero2{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: round;
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+}
+.herokid2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.high2{
+    font-size: 30px;
+}
+.par2{
+    width: 33vw;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.par3{
+    width: 34vw;
+}
+.anchor{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.anchor a{
+    color: forestgreen;
+    line-height: 20px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 10px 10px 15px rgb(240, 239, 239);
+    border-radius: 6px;
+}
+.par4{
+    width: 15vw;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: bold;
+}
+.avatar{
+    display: flex;
+    gap: 20px;
+    
+}
+.high3{
+    width: 4vw;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.par5{
+    width: 8vw;
+    font-size: 10px;
+}
+.hero3{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 30%;
+    color: white;
+}
+.herokid3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.par6{
+    width: 31vw;
+}
+.form3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form4{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width: 25vw;
+    height: 35px;
+    padding: 15px;
+}
+.form5{
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    width: 13vw;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.hero4{
+    background-color: hsl(293, 59%, 58%);
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.herokid4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.number{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.mail{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.ul2{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+.ul3{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.topic{
+    font-size: 35px;
+}
+@media screen and (max-width:950px) {
+    .navbar{
+        gap: 31px;
+    }
+    .ul1{
+        display: none;
+    }
+    .herosec{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .high1{
+        width: 70vw;
+        text-align: center;
+    }
+    .par1{
+        width: 75vw;
+        text-align: center;
+    }
+    .fieldset{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .form1{
+        width: 75vw;
+    }
+    .form2{
+        width: 75vw;
+    }
+    .illustration{
+        height: 200px;
+    }
+    .hero2{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+    .herokid2{
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .high2{
+        width: 90vw;
+        font-size: 23px;
+        text-align: center;
+    }
+    .par2{
+        width: 85vw;
+        text-align: left;
+    }
+    .new{
+        gap: 25px;
+    }
+    .par3{
+        width: 85vw;
+        text-align: left;
+    }
+    .anchor{
+        display: flex;
+        justify-content: center;
+    }
+    .user{
+        display: flex;
+        width: 95vw;
+        padding-left: 20px;
+        gap: 16px;
+       
+    }
+    .par4{
+        width: 86vw;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .high3{
+        width: 60vw;
+        font-size: 17px;
+    }
+    .par5{
+        width: 60vw;
+        font-size: 17px;
+    }
+    .illustration2{
+        height: 200px;
+    }
+    .hero3{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .herokid3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    .par6{
+        width: 90vw;
+        font-size: 20px;
+        text-align: center;
+    }
+    .form4{
+        width: 70vw;
+    }
+    .form5{
+        width: 70vw;
+        text-align: center;
+    }
+    .hero4{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: self-start;
+        padding: 40px;
+        
+    }
+    .social{
+        display: flex;
+        align-self: center;
+    }
+
+}
