@@ -157,7 +157,7 @@
     background-color: blue;
     border: none;
     border-radius: 3px;
-    width: 13vw;
+    width: 15vw;
     padding: 10px;
     color: white;
     cursor: pointer;
@@ -218,8 +218,6 @@
     .herosec{
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
         gap: 60px;
     }
     .high1{
@@ -242,14 +240,13 @@
         width: 75vw;
     }
     .illustration img{
-        height: 150px;
+        height: 180px;
     }
     .hero2{
         display: flex;
         flex-direction: column-reverse;
         gap: 50px;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
     }
     .herokid2{
         display: flex;
@@ -297,7 +294,7 @@
         font-size: 11px;
     }
     .illustration2 img{
-        height: 150px;
+        height: 180px;
     }
     .hero3{
         display: flex;
