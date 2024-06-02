@@ -18,7 +18,7 @@
 }
 .herosec{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -60,7 +60,7 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 100vh;
+    padding: 50px 0px;
 }
 .herokid2{
     display: flex;
@@ -243,7 +243,6 @@
     .hero2{
         display: flex;
         flex-direction: column-reverse;
-        height: 150vh;
         gap: 50px;
         justify-content: center;
         align-items: center;
